@@ -7,7 +7,7 @@ win = False
 Turns =0
 while win==False:
     Your_guess = input("Enter a number between 1 and 20")
-    Turns +=1
+    Turns -=1
     if random_number==int(Your_guess):
         print("You won!")
         print("Number of turns you have used: ",Turns)
