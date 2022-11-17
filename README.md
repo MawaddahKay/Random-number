@@ -1,6 +1,6 @@
 # Random-number
 Random number in py
-# guess the number game in Python by CodeSpeedy.com
+# guess the number game in Python
 import random
 random_number = random.randint(1,20)
 win = False
@@ -15,6 +15,6 @@ while win==False:
         break
     else:
      if random_number>int(Your_guess):
-        print("Your Guess was low, Please enter a higher number")
+        print("was low, Please enter a higher number")
      else:
-        print("your guess was high, please enter a lower number")
+        print("was high, please enter a lower number")
