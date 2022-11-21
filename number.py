@@ -1,3 +1,8 @@
+"""
+Program: random.com
+Author: Mawaddah
+Last date modified:21/11/22
+"""
 # guess the number game in Python by CodeSpeedy.com
 import random
 random_number = random.randint(1,100)
