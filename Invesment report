@@ -28,7 +28,7 @@ print(f"Year  startBalance      interest  endBalance")
 for year in range(1, years + 1):
       interest = startBalance * rate
       endBalance = startBalance + interest
-      print(f"{year:>4}  {startBalance:<18}  {interest:<9}   {endBalance:<16}")
+      print(f"{year:>4}  {startBalance:<18.2f}  {interest:<10.2f}   {endBalance:<16.2f}")
       startBalance = endBalance
       totalInterest += interest
 
