@@ -41,7 +41,7 @@ while True:
     except ZeroDivisionError:
         print("Cannot devide by zero")
     except TypeErro:
-        print("You past")
+        print("You pass incorrect argument value" )
 
 # check if user wants another calculation
     # break the while loop if answer is no
