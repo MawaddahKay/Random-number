@@ -40,7 +40,7 @@ while True:
         
     except ZeroDivisionError:
         print("Cannot devide by zero")
-    except TypeErro:
+    except TypeError:
         print("You pass incorrect argument value" )
 
 # check if user wants another calculation
