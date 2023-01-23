@@ -5,11 +5,11 @@ while True:
             try:
                 number1 = float(input("Input  the number:"))     #we need to put 'int' before the code if u dont put the result will be string not numeric ex '5'+'5'=55 not 10
             except :
-                print("Your first input is not a number\n")
+                print("Your first input is not a number")
             try:   
                 number2 = float(input('Input the number:'))
             except:
-                print("Your second input is not a number\n")
+                print("Your second input is not a number")
             x = input("select the operator (+,-,*,/): ")     
         except TypeError:
             print("You pass incorrect argument value" )
