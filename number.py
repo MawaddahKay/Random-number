@@ -25,7 +25,7 @@ while win==False:
 # Guessing game with oop 2/3/23
 # 1.Create a guessing game class and they have three methode 
     #- Init ,
-    #-Play method for user input the number and it's have try-except for erro value
+    #-Play method for user input the number and it's have try-except for value erro
     #- play again (loop)
 import random
 class GuessingGame:
