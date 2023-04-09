@@ -1,4 +1,5 @@
 # oop 
 - Random number with python
-- guessing game on oop
-
+- guessing game with oop
+- Invesment
+- Calculator
