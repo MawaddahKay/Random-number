@@ -1,7 +1,7 @@
 # Guessing game with oop 2/3/23
 # 1.Create a guessing game class and they have three methode 
     #- Init ,
-    #-Play method for user input the number and it's have try-except for value erro
+    #-Play method for user input the number and it's have try-except for value error
     #- play again (loop)
 import random
 class GuessingGame:
